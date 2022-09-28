@@ -1,0 +1,22 @@
+{
+  "name": "appengine-storage",
+  "description": "Node.js Google Cloud Storage sample for Google App Engine",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha system-test/*.test.js --exit --timeout=30000"
+  },
+  "engines": {
+    "node": ">= 12.20.0"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.0.0",
+    "express": "^4.17.0",
+    "multer": "^1.4.2",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "supertest": "^6.0.0",
+    "proxyquire": "^2.1.3"
+  }
+}

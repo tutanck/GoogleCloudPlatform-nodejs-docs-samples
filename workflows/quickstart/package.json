@@ -1,0 +1,16 @@
+{
+  "name": "workflows-quickstart",
+  "description": "Execute a Cloud Workflow",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@google-cloud/workflows": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0"
+  }
+}
